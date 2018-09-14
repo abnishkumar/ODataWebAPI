@@ -15,8 +15,7 @@ Step By Step Create OData Web API
                 routePrefix: null,
             model: builder.GetEdmModel());
             
-NOTE:-OData configuration always below the routing Congiguration
-// Web API configuration and services
+NOTE:-OData configuration always below the routing configuration.
 
             // Web API routes
             config.MapHttpAttributeRoutes();
